@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f9f9f9;
+  color: #333;
+}
+header {
+  background: #4a90e2;
+  color: white;
+  padding: 1rem;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav a {
+  margin-left: 1rem;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+.ad-banner {
+  background: #d1e3ff;
+  color: #333;
+  text-align: center;
+  padding: 1em;
+  font-weight: bold;
+  margin-top: 1em;
+}
+.filter-section {
+  text-align: center;
+  margin: 2em 0;
+}
+.filter-section input {
+  padding: 0.5em;
+  width: 80%;
+  max-width: 500px;
+  font-size: 1rem;
+}
+main section {
+  padding: 2em;
+}
+main h2 {
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 0.5em;
+}
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  margin-top: 1em;
+}
+.card {
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 250px;
+  padding: 1em;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.card img {
+  width: 100%;
+  border-radius: 4px;
+}
+.card h3 {
+  margin: 0.5em 0 0.2em;
+}
+.card p {
+  margin: 0 0 0.5em;
+  font-size: 0.9em;
+}
+.card a {
+  text-decoration: none;
+  background: #4a90e2;
+  color: white;
+  padding: 0.5em 1em;
+  border-radius: 4px;
+  display: inline-block;
+}
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 1em;
+}
